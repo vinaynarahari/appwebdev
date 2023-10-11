@@ -1,0 +1,33 @@
+.cont{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+
+.flex-item{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#flex-item-1{
+
+    background-color: aqua;
+    order: 3;
+}
+#flex-item-2{
+    background-color: purple;
+    order: 1;
+    align-self: flex-end;
+}
+#flex-item-3{
+    background-color: orange;
+    order: 2;
+    align-self: center;
+}
