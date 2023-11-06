@@ -1,5 +1,20 @@
-.cont{
+.images{
+    width: 100px;
     height: auto;
+}
+
+
+h1{
+    color: blue;
+}   
+
+#header-special{
+    color: red;
+}
+
+
+.cont{
+    height: 800px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,23 +27,23 @@
     display: flex;
     height: 200px;
     width: 100%;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
 #flex-item-1{
 
     background-color: aqua;
-    order: 3;
+    order: 1;
 }
 #flex-item-2{
     background-color: purple;
-    order: 1;
+    order: 2;
     align-self: flex-end;
 }
 #flex-item-3{
     background-color: orange;
-    order: 2;
+    order: 3;
     align-self: center;
 }
 
